@@ -123,7 +123,7 @@
   margin: 3rem 3rem;
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .skill-header {
     font-size: 3rem;
   }
