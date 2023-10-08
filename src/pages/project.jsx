@@ -8,13 +8,13 @@ function Project() {
         <div className="project-detail">
           <div className="project-card">
             <div className="project-img">
-              <img id="course-flow-img" src="src/assets/courseFlowHome.png" />
+              <img id="course-flow-img" src="src/assets/courseFlowHome.svg" />
               <a
                 href="https://github.com/MaySupunnika/CourseFlowProject"
                 target="_blank"
               >
                 CODE
-                <img id="project-github" src="src/assets/github-icon.png" />
+                <img id="project-github" src="src/assets/github-icon.svg" />
               </a>
             </div>
             <div className="project-inner-detail">

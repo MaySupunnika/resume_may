@@ -84,10 +84,10 @@ a {
     flex-direction: column;
   }
   #course-flow-img {
-    width: 8rem;
+    width: 12rem;
     position: relative;
     top: -4rem;
-    left: 4.5rem;
+    left: 2.5rem;
   }
   .project-img {
     height: 6.5rem;
@@ -96,7 +96,7 @@ a {
     position: absolute;
     font-size: 1rem;
     left: 10.5rem;
-    top: 5.5rem;
+    top: 4rem;
   }
   #project-github {
     width: 1rem;

@@ -10,7 +10,7 @@ function Contact() {
           <div className="email-phone">
             <div className="email">
               <div id="topic-icon">
-                <img id="email-icon" src="src/assets/email-icon.png" />
+                <img id="email-icon" src="src/assets/email-icon.svg" />
                 <p>Email</p>
               </div>
               <a href="mailto:Supunnika.PKN@gmail.com">
@@ -19,7 +19,7 @@ function Contact() {
             </div>
             <div className="phone">
               <div id="topic-icon">
-                <img id="phone-icon" src="src/assets/phone-icon.png" />
+                <img id="phone-icon" src="src/assets/phone-icon.svg" />
                 <p>Phone Number</p>
               </div>
               <p id="number">0928479885</p>
@@ -28,7 +28,7 @@ function Contact() {
           <div className="github-linkedin">
             <div className="github">
               <div id="topic-icon">
-                <img id="github-icon" src="src/assets/github-icon.png" />
+                <img id="github-icon" src="src/assets/github-icon.svg" />
                 <p>GitHub</p>
               </div>
               <a href="https://github.com/MaySupunnika">
@@ -37,7 +37,7 @@ function Contact() {
             </div>
             <div className="linkedin">
               <div id="topic-icon">
-                <img id="linkedin-icon" src="src/assets/linkedin-icon.png" />
+                <img id="linkedin-icon" src="src/assets/linkedin-icon.svg" />
                 <p>LinkedIn</p>
               </div>
               <a href="https://www.linkedin.com/in/supunnika-poklin-088b40287/">
