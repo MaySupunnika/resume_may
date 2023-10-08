@@ -1,0 +1,82 @@
+.contact-container {
+  background-color: #5c59c3;
+  padding: 2rem 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-detail {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin-top: 3rem;
+}
+
+.contact-detail div {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-header {
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+#contact-img {
+  width: 10rem;
+  height: 10rem;
+}
+
+.email-phone {
+  margin: 0rem 7rem;
+}
+
+.phone,
+.linkedin {
+  margin-top: 2rem;
+}
+
+#email-icon,
+#phone-icon,
+#github-icon,
+#linkedin-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+#topic-icon {
+  display: flex;
+  flex-direction: row;
+}
+
+.email a,
+.github a,
+.linkedin a,
+#number {
+  margin-left: 2rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+@media (max-width: 768px) {
+  .contact-detail {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: -2rem;
+  }
+  .contact-header {
+    font-size: 2.5rem;
+  }
+  #contact-img {
+    display: none;
+  }
+  .email,
+  .phone {
+    margin-left: -7rem;
+  }
+  .email {
+    margin-top: 2rem;
+  }
+}

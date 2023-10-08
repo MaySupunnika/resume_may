@@ -1,0 +1,115 @@
+.project-container {
+  background-image: url("../assets/bg-homePage.svg");
+  height: 100vh;
+}
+
+.project-header {
+  color: #2b2a52;
+  display: flex;
+  justify-content: center;
+  font-size: 4rem;
+  font-weight: 600;
+  padding-top: 5rem;
+}
+
+.project-card {
+  width: 38rem;
+  padding: 1.5rem 1rem;
+  background-color: #c5b6f5e5;
+  border: 5px solid white;
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  transform: scale(1);
+  transition: transform 0.6s;
+  cursor: pointer;
+}
+
+.project-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+#course-flow-img {
+  width: 15rem;
+  height: auto;
+  margin-right: 1rem;
+  border-radius: 1rem;
+}
+
+.project-topic,
+.project-description {
+  color: #2b2a52;
+}
+
+.project-topic {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.project-description {
+  width: 17rem;
+}
+
+#project-github {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.project-img {
+  width: 17rem;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+}
+
+.project-card:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 20px #5c59c3cb;
+}
+
+@media (max-width: 768px) {
+  .project-header {
+    font-size: 2.5rem;
+  }
+  .project-card {
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+  }
+  #course-flow-img {
+    width: 8rem;
+    position: relative;
+    top: -4rem;
+    left: 4.5rem;
+  }
+  .project-img {
+    height: 6.5rem;
+  }
+  .project-img a {
+    position: absolute;
+    font-size: 1rem;
+    left: 10.5rem;
+    top: 5.5rem;
+  }
+  #project-github {
+    width: 1rem;
+    height: 1rem;
+    margin-top: 4px;
+  }
+  .project-topic {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  .project-description {
+    width: 22rem;
+    margin: 0;
+    text-align: center;
+  }
+}

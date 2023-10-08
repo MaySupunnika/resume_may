@@ -1,9 +1,6 @@
 .skill-bg {
   background-image: url("../assets/skill-bg.svg");
-  background-size: cover;
   background-position: bottom;
-  background-repeat: no-repeat;
-  width: 100vw;
   height: 100vh;
 }
 
@@ -107,6 +104,15 @@
   color: #5c59c3;
   margin-top: 1rem;
   cursor: pointer;
+  animation: showname 2.5s;
+}
+@keyframes showname {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100%;
+  }
 }
 
 .skill-name:hover {
@@ -115,4 +121,26 @@
 
 .skill-row {
   margin: 3rem 3rem;
+}
+
+@media (max-width: 768px) {
+  .skill-header {
+    font-size: 3rem;
+  }
+  .skill-wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .skill-row {
+    margin: 0;
+  }
+
+  .icon-skill {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  .skill-name {
+    font-size: 12px;
+  }
 }
