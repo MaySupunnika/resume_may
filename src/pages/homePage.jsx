@@ -1,5 +1,6 @@
 import "./homePage.css";
 import Navbar from "../components/navbar";
+import ImgHome from "../assets/image-home.svg";
 function HomePage() {
   return (
     <>
@@ -18,7 +19,7 @@ function HomePage() {
               Full-Stack Developers.
             </p>
           </div>
-          <img src="/src/assets/image-home.svg" />
+          <img src={ImgHome} />
         </div>
       </div>
     </>

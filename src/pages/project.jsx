@@ -1,4 +1,5 @@
 import "./project.css";
+import CourseFlow from "../assets/courseFlowHome.svg";
 
 function Project() {
   return (
@@ -8,13 +9,12 @@ function Project() {
         <div className="project-detail">
           <div className="project-card">
             <div className="project-img">
-              <img id="course-flow-img" src="src/assets/courseFlowHome.svg" />
+              <img id="course-flow-img" src={CourseFlow} />
               <a
                 href="https://github.com/MaySupunnika/CourseFlowProject"
                 target="_blank"
               >
                 CODE
-                <img id="project-github" src="src/assets/github-icon.svg" />
               </a>
             </div>
             <div className="project-inner-detail">
