@@ -74,17 +74,24 @@ img {
   }
   .name {
     font-size: 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    position: absolute;
+    top: 22rem;
     margin: 0;
   }
   .full-stack {
     font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
   }
   .detail {
-    width: 25rem;
+    width: 20rem;
     display: flex;
     text-align: center;
+    font-size: 14px;
+    margin-top: 1rem;
+  }
+  .first-text {
+    display: flex;
+    justify-content: center;
   }
 }

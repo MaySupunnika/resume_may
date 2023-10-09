@@ -2,6 +2,7 @@
   background-image: url("../assets/skill-bg.svg");
   background-position: bottom;
   height: 100vh;
+  width: 100%;
 }
 
 .all-skill-wrapper {

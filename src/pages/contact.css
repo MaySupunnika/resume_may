@@ -1,21 +1,9 @@
 .contact-container {
   background-color: #5c59c3;
-  padding: 2rem 5rem;
+  padding: 2rem 5rem 0rem 5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.contact-detail {
-  display: flex;
-  justify-content: center;
-  width: 90%;
-  margin-top: 3rem;
-}
-
-.contact-detail div {
-  display: flex;
-  flex-direction: column;
 }
 
 .contact-header {
@@ -23,60 +11,65 @@
   font-weight: 600;
 }
 
-#contact-img {
-  width: 10rem;
-  height: 10rem;
+.contact-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
 }
 
-.email-phone {
-  margin: 0rem 7rem;
+.contact-github,
+.contact-linkedin {
+  width: 3rem;
+  height: 3rem;
 }
 
-.phone,
-.linkedin {
-  margin-top: 2rem;
-}
-
-#email-icon,
-#phone-icon,
-#github-icon,
-#linkedin-icon {
-  width: 1.5rem;
-  height: 1.5rem;
-  margin-right: 0.5rem;
-}
-
-#topic-icon {
+.linkedin-github-box {
   display: flex;
   flex-direction: row;
+  margin: 2rem 0rem;
 }
 
-.email a,
-.github a,
-.linkedin a,
-#number {
-  margin-left: 2rem;
-  display: flex;
-  justify-content: flex-start;
+.contact-github {
+  margin-right: 1.5rem;
+}
+
+.copyright {
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.5rem;
+}
+
+.contact-email,
+.contact-phone {
+  text-decoration: none;
+}
+
+.contact-email {
+  margin-bottom: 1.5rem;
+}
+
+hr {
+  width: 80rem;
+  position: absolute;
+  top: 142rem;
+  opacity: 0.5;
 }
 
 @media only screen and (max-width: 600px) {
-  .contact-detail {
-    display: flex;
-    flex-direction: column-reverse;
-    margin-left: -2rem;
-  }
-  .contact-header {
-    font-size: 2.5rem;
-  }
-  #contact-img {
+  hr {
     display: none;
   }
-  .email,
-  .phone {
-    margin-left: -7rem;
+  .contact-email,
+  .contact-phone {
+    font-size: 12px;
   }
-  .email {
-    margin-top: 2rem;
+  .contact-github,
+  .contact-linkedin {
+    width: 2rem;
+    height: 2rem;
+  }
+  .contact-container {
+    padding: 1rem 3rem 0rem 3rem;
   }
 }

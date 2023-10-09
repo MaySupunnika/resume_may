@@ -79,7 +79,7 @@ a {
     font-size: 2.5rem;
   }
   .project-card {
-    width: 25rem;
+    width: 20rem;
     display: flex;
     flex-direction: column;
   }
@@ -90,12 +90,12 @@ a {
     left: 2.5rem;
   }
   .project-img {
-    height: 6.5rem;
+    height: 4.5rem;
   }
   .project-img a {
     position: absolute;
     font-size: 1rem;
-    left: 10.5rem;
+    left: 8.5rem;
     top: 4rem;
   }
   #project-github {
@@ -104,12 +104,13 @@ a {
     margin-top: 4px;
   }
   .project-topic {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 600;
   }
   .project-description {
-    width: 22rem;
+    width: 18rem;
     margin: 0;
     text-align: center;
+    font-size: 13px;
   }
 }
