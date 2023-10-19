@@ -12,105 +12,62 @@
   padding-top: 5rem;
 }
 
+.card-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+
 .project-card {
-  width: 38rem;
-  padding: 1.5rem 1rem;
-  background-color: #c5b6f5e5;
-  border: 5px solid white;
-  border-radius: 1.5rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  transform: scale(1);
-  transition: transform 0.6s;
-  cursor: pointer;
+  width: 27rem;
+  height: 10rem;
 }
 
-.project-detail {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 3rem;
-}
-
-#course-flow-img {
-  width: 15rem;
+.project-image {
+  width: 27rem;
   height: auto;
-  margin-right: 1rem;
-  border-radius: 1rem;
-}
-
-.project-topic,
-.project-description {
-  color: #2b2a52;
-}
-
-.project-topic {
-  font-size: 2rem;
-  font-weight: 600;
-}
-
-.project-description {
-  width: 17rem;
-}
-
-#project-github {
-  width: 1.5rem;
-  height: 1.5rem;
-}
-
-.project-img {
-  width: 17rem;
-}
-
-a {
-  display: flex;
-  justify-content: center;
-}
-
-.project-card:hover {
-  transform: scale(1.1);
   box-shadow: 0px 0px 20px #5c59c3cb;
 }
 
+.project-detail {
+  width: 27rem;
+  padding: 1rem;
+  background-color: rgba(92, 89, 195, 0.8);
+  position: relative;
+  top: -14.9rem;
+  opacity: 0;
+  visibility: hidden;
+}
+.project-card:hover .project-detail {
+  opacity: 1;
+  visibility: visible;
+}
+
+.name {
+  font-size: 2rem;
+  padding-left: 1rem;
+  font-weight: 600;
+}
+
 @media only screen and (max-width: 600px) {
-  .project-header {
-    font-size: 2.5rem;
-  }
   .project-card {
-    width: 20rem;
-    display: flex;
-    flex-direction: column;
+    scale: 47%;
+    margin-top: 3rem;
   }
-  #course-flow-img {
-    width: 12rem;
-    position: relative;
-    top: -4rem;
-    left: 2.5rem;
+
+  .project-header {
+    scale: 50%;
   }
-  .project-img {
-    height: 4.5rem;
+
+  .card-box {
+    margin-top: -5rem;
   }
-  .project-img a {
-    position: absolute;
-    font-size: 1rem;
-    left: 8.5rem;
-    top: 4rem;
+
+  .project-detail {
+    top: -11.7rem;
   }
-  #project-github {
-    width: 1rem;
-    height: 1rem;
-    margin-top: 4px;
-  }
-  .project-topic {
-    font-size: 1.2rem;
-    font-weight: 600;
-  }
-  .project-description {
-    width: 18rem;
-    margin: 0;
-    text-align: center;
-    font-size: 13px;
+  .name {
+    display: none;
   }
 }
