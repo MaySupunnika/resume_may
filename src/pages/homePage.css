@@ -9,7 +9,7 @@
   padding-top: 12%;
 }
 
-.name {
+.home-name {
   font-size: 4rem;
   margin-right: 7rem;
   position: relative;
@@ -72,11 +72,12 @@ img {
     margin-top: 5rem;
     margin-left: 4rem;
   }
-  .name {
+  .home-name {
     font-size: 2rem;
     position: absolute;
     top: 22rem;
     margin: 0;
+    visibility: visible;
   }
   .full-stack {
     font-size: 1.2rem;

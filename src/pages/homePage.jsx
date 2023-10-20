@@ -7,7 +7,7 @@ function HomePage() {
       <Navbar />
       <div className="home-bg" id="Home">
         <div className="home-container">
-          <div className="name">
+          <div className="home-name">
             <p className="first-text">
               HELLO, <span className="second-text">I'M MAY</span>
             </p>
