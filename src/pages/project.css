@@ -58,6 +58,7 @@
 
   .project-header {
     scale: 45%;
+    width: auto;
   }
 
   .card-box {

@@ -72,4 +72,7 @@ hr {
   .contact-container {
     padding: 1rem 3rem 0rem 3rem;
   }
+  .contact-detail {
+    height: 6rem;
+  }
 }
