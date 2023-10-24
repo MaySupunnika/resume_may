@@ -1,6 +1,8 @@
 import "./contact.css";
 import LinkedInIcon from "../assets/linkedin-icon-white.png";
 import GithubIcon from "../assets/github-icon-white.svg";
+import ResumeIcon from "../assets/resume.png";
+import ResumeFile from "../assets/supunnika_resume_software_developer.pdf";
 function Contact() {
   return (
     <>
@@ -32,6 +34,9 @@ function Contact() {
               target="_blank"
             >
               <img className="contact-linkedin" src={LinkedInIcon} />
+            </a>
+            <a href={ResumeFile} target="_blank">
+              <img className="contact-resumme" src={ResumeIcon} />
             </a>
           </div>
           <hr />

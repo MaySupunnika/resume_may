@@ -24,13 +24,20 @@
   height: 3rem;
 }
 
+.contact-resumme {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
 .linkedin-github-box {
   display: flex;
   flex-direction: row;
+  align-items: center;
   margin: 2rem 0rem;
 }
 
-.contact-github {
+.contact-github,
+.contact-linkedin {
   margin-right: 1.5rem;
 }
 
@@ -65,7 +72,8 @@ hr {
     font-size: 12px;
   }
   .contact-github,
-  .contact-linkedin {
+  .contact-linkedin,
+  .contact-resumme {
     width: 2rem;
     height: 2rem;
   }
